@@ -1,0 +1,21 @@
+{
+    "name": "justalinko/niki264",
+    "description": "Niki264 - Encode & Decode alpha2num or num2alpha and base64 with key",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Justalinko\\Niki264\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "justalinko",
+            "email": "alinkokomansuby@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "justalinko/iki64": "dev-master"
+    }
+}

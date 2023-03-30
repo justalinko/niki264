@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8a1c60f74c03dcd6ea486234bdb6e156",
+    "packages": [
+        {
+            "name": "justalinko/iki64",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/justalinko/iki64.git",
+                "reference": "72ccbad94d7f2dd289b02ce9b0d0e0d83b7085aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/justalinko/iki64/zipball/72ccbad94d7f2dd289b02ce9b0d0e0d83b7085aa",
+                "reference": "72ccbad94d7f2dd289b02ce9b0d0e0d83b7085aa",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Justalinko\\Iki64\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "justalinko",
+                    "email": "alinkokomansuby@gmail.com"
+                }
+            ],
+            "description": "Base64 Encode Decode With Key",
+            "support": {
+                "source": "https://github.com/justalinko/iki64/tree/master"
+            },
+            "time": "2023-03-25T17:59:28+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "justalinko/iki64": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
