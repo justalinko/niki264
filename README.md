@@ -42,10 +42,10 @@ $niki264 = new justalinko\niki264\Niki264();
 
 // encoding base64 with key
 echo $niki264->encode('Hello World!' , 'secret');
-// output : nOkqiyMqiyMqj2b2LZMcdOAxiOhc
+// output : UOJuvO8aJ29yvOSk
 
 // decoding base64 with key
-echo $niki264->decode('nOkqiyMqiyMqj2b2LZMcdOAxiOhc' , 'secret');
+echo $niki264->decode('UOJuvO8aJ29yvOSk' , 'secret');
 // output : Hello World!
 
 // encoding alphabet to numeric
@@ -57,7 +57,7 @@ echo $niki264->num2alpha('961515180115961136');
 // output : hello there
 
 // encoding safe mode ( to lowercase alphabet )
-echo $niki264->alpa2numSafe('Hello World!'); 
+echo $niki264->alpha2numSafe('Hello World!'); 
 // output : 961515180115961136
 
 ?>
