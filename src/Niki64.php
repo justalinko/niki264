@@ -8,8 +8,10 @@
  * @author NIKI264 ( justalinko < https://github.com/justalinko > ) 
  */
 
+namespace Justalinko\Niki264;
 
 use Justalinko\Iki64\Iki64;
+
 Class Niki264
 {
     protected $iki64;
