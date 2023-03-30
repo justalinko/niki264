@@ -16,6 +16,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "justalinko/iki64": "dev-master"
+        "justalinko/iki64": "^1.0"
     }
 }
